@@ -1,6 +1,5 @@
 /* Redmine - project management software
    Copyright (C) 2006-2014  Jean-Philippe Lang */
-//= require bootstrap
 
 function checkAll(id, checked) {
   $('#'+id).find('input[type=checkbox]:enabled').attr('checked', checked);
